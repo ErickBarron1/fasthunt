@@ -1,0 +1,45 @@
+/* Main  */
+html {
+    width: 1170px;
+}
+
+/* Header  */
+
+header {
+    font-family: 'Inter', sans-serif;
+}
+
+#logo {
+    font-family: 'Red Hat Display', sans-serif;
+    font-family: 'Manrope', sans-serif;
+    font-size: 26px;
+    color: #1A093F;
+    display: inline-block;
+}
+
+#logo-dot {
+    color: #FA3263;
+}
+
+header nav {
+    display: inline-block;
+
+}
+
+header nav ul li {
+    list-style: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.fa-chevron-down {
+    color: #716E6D;
+}
+
+/* Main content */
+
+body {
+    color: #1A093F;
+}
+
+/* Footer */
