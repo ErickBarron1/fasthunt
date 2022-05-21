@@ -1,6 +1,6 @@
 /* Main  */
 html {
-    width: 1170px;
+    width: 1180px;
 }
 
 /* Header  */
@@ -36,10 +36,40 @@ header nav ul li {
     color: #716E6D;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-nav li {
+    padding: 0 20px;
+}
+
+.last-item {
+    padding-right: 100px;
+}
+
+.second-nav li {
+    padding: 0 20px;
+}
+
+/* TODO: need to fix the padding to align the nav */
+
+.cta-button {
+    background-color: #4141A5;
+    color: #ffffff;
+    text-align: center;
+    padding: 18px !important;
+    border-radius: 10px;
+}
+
+
 /* Main content */
 
 body {
     color: #1A093F;
+    margin: 20px 40px;
+    background-color: #F1F3FB;
 }
 
 /* Footer */
