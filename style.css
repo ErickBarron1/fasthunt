@@ -108,4 +108,38 @@ body {
     line-height: 32px;
 }
 
+#hero-form {
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.hero input {
+    width: 500px;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    height: 66px;
+    border: none;
+    border-radius: 10px;
+}
+
+.hero input::placeholder {
+    color: #CDCDCD !important;
+    padding-left: 30px;
+}
+
+.hero button {
+    margin-left: -160px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    border: none;
+    background-color: #4141a5;
+    color: #fff;
+    padding: 24px 32px;
+    border-radius: 10px;
+}
+
+.hero img {
+    margin-top: 20px;
+}
+
 /* Footer */
